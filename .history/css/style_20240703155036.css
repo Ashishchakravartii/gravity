@@ -12163,19 +12163,20 @@ transition: all 0.5s ease-in-out;
 	background-color: #D72323;
 }
 
-.CounterBox>div>ul>li.count.percent {
+li.count.percent {
     font-size: 30px;
     color: #000;
 }
 .add_space { 
-  height:60px;
+  height:200px;
 }
 .counter ul {
  display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 75%;
+    max-width: 65%;
     margin: 0 auto;
+    border: 1px solid #777;
     padding: 40px 60px;
   font-family: system-ui;
 }
@@ -12190,14 +12191,14 @@ transition: all 0.5s ease-in-out;
 .counter ul li:after {
 }
 
-.CounterBox>.counter ul li:nth-child(2):after {
+.counter ul li:nth-child(2):after {
     content: "%";
 }
 
-.CounterBox>.counter ul li:nth-child(3):after {
+.counter ul li:nth-child(3):after {
     content: "$";
 }
 
-.CounterBox>.counter ul li:nth-child(1):after {
+.counter ul li:nth-child(1):after {
     content: "+";
 }

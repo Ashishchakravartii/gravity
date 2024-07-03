@@ -11970,14 +11970,14 @@ transition: all 0.5s ease-in-out;
             content: "";
             display: inline-block;
             position: absolute;
-            top: 86%;
-            left: 0%; 
+            top: 0;
+            left: 100%; 
             width: 100px; 
             height: 100px; 
-            background-image: url('/images/service/newService/yellowLine.png'); 
+            background-image: url('path/to/your/image.jpg'); 
             background-size: contain; 
             background-repeat: no-repeat;
-            animation: grow-shrink 3s infinite;
+            animation: grow-shrink 2s infinite;
         }
 
         @keyframes grow-shrink {
@@ -12152,52 +12152,4 @@ transition: all 0.5s ease-in-out;
 }
 #carousel__btn3:checked ~ .carousel .carousel__slides {
   transform: translateX(calc(-200% - 2rem));
-}
-
-
-/* ----------------------- Counter section styles------------------- */
-
-.CounterBox{
-	width: 100%;
-	height: 40vh;
-	background-color: #D72323;
-}
-
-.CounterBox>div>ul>li.count.percent {
-    font-size: 30px;
-    color: #000;
-}
-.add_space { 
-  height:60px;
-}
-.counter ul {
- display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 75%;
-    margin: 0 auto;
-    padding: 40px 60px;
-  font-family: system-ui;
-}
-
-.counter ul li {
-    list-style: none;
-    margin: 0;
-    font-size: 50px !important;
-    font-weight: 700;
-}
-
-.counter ul li:after {
-}
-
-.CounterBox>.counter ul li:nth-child(2):after {
-    content: "%";
-}
-
-.CounterBox>.counter ul li:nth-child(3):after {
-    content: "$";
-}
-
-.CounterBox>.counter ul li:nth-child(1):after {
-    content: "+";
 }
