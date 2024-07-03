@@ -11988,7 +11988,7 @@ transition: all 0.5s ease-in-out;
 
 
 /* ----------- Our service right crouser---------------- */
-/* 
+
 .container {
   max-width: 750px;
   margin: auto;
@@ -11996,7 +11996,7 @@ transition: all 0.5s ease-in-out;
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 .carousel {
   display: flex;
   flex-direction: column;
