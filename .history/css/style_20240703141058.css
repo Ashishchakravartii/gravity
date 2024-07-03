@@ -11932,10 +11932,6 @@ transition: all 0.5s ease-in-out;
 	gap: 1.5vmax;
 }
 
-.ourSecLeftHead{
-	font-size: 2.5vmax;
-}
-
 .ourSecLeft-smallBox{
 	display: flex;
 	justify-content: start;

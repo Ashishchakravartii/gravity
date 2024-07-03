@@ -11917,12 +11917,13 @@ transition: all 0.5s ease-in-out;
 
 .ourSec{
 	width: 100%;
+	background-color: red;
 	display: flex;
-	background-color: #F6F8FB;
 }
 .ourSec>div{
 	width: 50%;
 	height: 100%;
+	border: 1px solid greenyellow;
 }
 .ourSec>div:first-child{
 	display: flex;
@@ -11932,10 +11933,6 @@ transition: all 0.5s ease-in-out;
 	gap: 1.5vmax;
 }
 
-.ourSecLeftHead{
-	font-size: 2.5vmax;
-}
-
 .ourSecLeft-smallBox{
 	display: flex;
 	justify-content: start;
@@ -11943,10 +11940,11 @@ transition: all 0.5s ease-in-out;
 	gap: 1vmax;
 	width: 80%;
 	height: 7vmax;
+	background-color: #00ca95;
 }
 .ourSecLeft-smallBox>div:first-child{
 	
-	background-color: #FFB013;
+	background-color: yellow;
 	padding: 0.5vmax 1.5vmax;
 	display: flex;
 	justify-content: center;
@@ -11954,8 +11952,8 @@ transition: all 0.5s ease-in-out;
 }
 .ourSecLeft-smallBox>div:nth-child(2){
 	width: 87%;
-	background-color: white;
-	padding: 0.5vmax 1.5vmax;
+	background-color: blue;
+	padding: 0vmax 1.5vmax;
 	display: flex;
 	justify-content: start;
 	align-items: center;
@@ -12047,13 +12045,13 @@ transition: all 0.5s ease-in-out;
   animation-play-state: running;
 }
 .carousel__slides .carousel__slid:nth-child(1) {
-  background-color: white;
+  background-color: #d5dcef;
 }
 .carousel__slides .carousel__slid:nth-child(2) {
-  background-color: white;
+  background-color: #d5efe0;
 }
 .carousel__slides .carousel__slid:nth-child(3) {
-  background-color: white;
+  background-color: #efd5e6;
 }
 .carousel__slid {
   flex: 1 0 100%;
