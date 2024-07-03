@@ -11930,7 +11930,6 @@ transition: all 0.5s ease-in-out;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	gap: 1.5vmax;
 }
 
 .ourSecLeft-smallBox{

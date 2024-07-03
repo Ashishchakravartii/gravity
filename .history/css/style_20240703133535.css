@@ -11925,36 +11925,14 @@ transition: all 0.5s ease-in-out;
 	height: 100%;
 	border: 1px solid greenyellow;
 }
-.ourSec>div:first-child{
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	align-items: center;
-	gap: 1.5vmax;
-}
 
 .ourSecLeft-smallBox{
 	display: flex;
-	justify-content: start;
 	align-items: center;
-	gap: 1vmax;
-	width: 80%;
-	height: 5vmax;
-	background-color: #00ca95;
+	gap: 4vmax;
+	padding-left: 7vmax;
 }
 .ourSecLeft-smallBox>div:first-child{
 	
 	background-color: yellow;
-	padding: 0.35vmax 1.5vmax;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.ourSecLeft-smallBox>div:nth-child(2){
-	width: 87%;
-	background-color: blue;
-	padding: 0vmax 1.5vmax;
-	display: flex;
-	justify-content: start;
-	align-items: center;
 }

@@ -11930,7 +11930,6 @@ transition: all 0.5s ease-in-out;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
-	gap: 1.5vmax;
 }
 
 .ourSecLeft-smallBox{
@@ -11951,7 +11950,7 @@ transition: all 0.5s ease-in-out;
 	align-items: center;
 }
 .ourSecLeft-smallBox>div:nth-child(2){
-	width: 87%;
+	width: 85%;
 	background-color: blue;
 	padding: 0vmax 1.5vmax;
 	display: flex;
